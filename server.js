@@ -9,7 +9,7 @@ const uuid =require("./helpers/uuid")
 const PORT = process.env.PORT || 3000;
 
 
-const dbPath = path.join(__dirname,'db', 'db.json');
+const dbPath = path.join(__dirname,'db','db.json');
 app.use(express.static("public"));
 
 app.use(express.json()); // parse JSON request bodies
